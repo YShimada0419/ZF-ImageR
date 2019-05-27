@@ -15,16 +15,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
-import tkinter as tk
-from tkinter import filedialog as tkFileDialog
-from tkinter.scrolledtext import ScrolledText
 import os
 import csv
 import threading
+import tkinter as tk
+from tkinter import filedialog as tkFileDialog
+from tkinter.scrolledtext import ScrolledText
 from google.cloud import automl_v1beta1
 
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 
 
 class ZFImageRFrame(tk.Frame):
@@ -36,7 +35,7 @@ class ZFImageRFrame(tk.Frame):
         self.target_files = ()
 
     def create_widgets(self):
-        self.lbl_titile = tk.Label(self, text="ZF-ImageR v" + VERSION, width=20, font=("",20))
+        self.lbl_titile = tk.Label(self, text="ZF-ImageR v{}".format(VERSION), width=20, font=("",20))
         self.lbl_titile.pack()
         """
         project setting UI
