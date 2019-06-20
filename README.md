@@ -14,6 +14,8 @@ The easiest way for machine learning to detect anomalies in fluorescent-labeled 
 2. select file(s)
 3. process files
 
+[![Image from Gyazo](https://i.gyazo.com/80727302ff2ac6c16f4bafa81b052363.gif)](https://gyazo.com/80727302ff2ac6c16f4bafa81b052363)
+
 ## Installation
 ### binary
 
