@@ -1,5 +1,7 @@
 # ZF-ImageR
 
+The easiest way for machine learning to detect anomalies in fluorescent-labeled zebrafish
+
 ## Requirements
 
 * Python3
@@ -15,7 +17,7 @@
 ## Installation
 ### binary
 
-1. download the compressed .zip file from [releases]() page
+1. download the compressed .zip file from [releases](https://github.com/YShimada0419/ZF-ImageR/releases) page
 2. unzip the downloaded .zip file
 3. run the executable file
 
