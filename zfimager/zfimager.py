@@ -19,11 +19,12 @@ import os
 import csv
 import threading
 import tkinter as tk
+from tkinter import messagebox as messagebox
 from tkinter import filedialog as tkFileDialog
 from tkinter.scrolledtext import ScrolledText
 from google.cloud import automl_v1beta1
 
-VERSION = "0.0.2"
+VERSION = "0.0.3"
 
 
 class ZFImageRFrame(tk.Frame):
@@ -112,7 +113,7 @@ class ZFImageRFrame(tk.Frame):
 
     def showinfo(self):
         msg = "ZF-ImageR Ver."+VERSION+"\n\nGitHub: https://github.com/YShimada0419/ZF-ImageR"
-        tk.messagebox.showinfo("About", msg)
+        messagebox.showinfo("About", msg)
 
     def load_key_file(self):
         self.key_file = tkFileDialog.askopenfilenames(parent=root, title='Choose a key file')
