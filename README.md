@@ -34,3 +34,6 @@ python3 ./zfimager/zfimager.py
 ## License
 
 This repository is licensed under the Apache License, Version 2.0, see [LICENSE](./LICENSE).
+
+If you use ZF-ImageR in an academic work, please cite:
+https://doi.org/10.3390/inventions4040072
